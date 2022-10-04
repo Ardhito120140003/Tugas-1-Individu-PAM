@@ -1,24 +1,33 @@
 * {
     box-sizing: border-box;
   }
-  .container {
+
+  .tabel {
     margin: auto;
     max-width: 280px;
     max-height: 653px;
+    font-family: 'Segoe UI';
   }
   table {
-    width: 100%;
+    width: 120%;
     margin: auto;
-    text-align: center;
+    text-align: left;
   }
-  
+
   th {
     background-color: #acc2d6;
     color: white;
     font-weight: bolder;
-    width: 20%;
   }
-  
+
+  td {
+    font-size: small;
+    font-weight: bold;
+    color: rgb(85, 80, 87);
+  }
   .ganjil {
     background-color: #e2eaef;
+  }
+  .genap {
+    background-color: aliceblue;
   }
